@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:node="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.org.node.progress.NodeProgressView
+        android:id="@+id/node_progress"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        node:node_bg="@mipmap/rb_nomal"
+        node:node_current="2"
+        node:node_num="4"
+        node:node_progress_bg="@mipmap/rb_checked"
+        node:node_progresscolor="#0a72da" />
+
+
+    <TextView
+        android:id="@+id/node_test"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="#123"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="node_test" />
+
+</LinearLayout>

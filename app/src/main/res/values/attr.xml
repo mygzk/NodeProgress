@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="nodeProgress">
+        <!--节点默认颜色-->
+        <attr name="node_color" format="color" />
+        <!--节点进度颜色-->
+        <attr name="node_progresscolor" format="color" />
+        <!--进度条默认颜色-->
+        <attr name="node_bar" format="color" />
+        <!--进度条默认颜色-->
+        <attr name="node_progress_bar" format="color" />
+        <!--文字提示颜色-->
+        <attr name="node_tip" format="color" />
+        <!--进度提示颜色-->
+        <attr name="node_progress_tip" format="color" />
+        <!-- 几点个数-->
+        <attr name="node_num" format="integer" />
+        <!-- 当前进度-->
+        <attr name="node_current" format="integer" />
+        <!--节点半径-->
+        <attr name="node_radio" format="dimension" />
+
+        <!-- 节点背景图-->
+        <attr name="node_bg" format="reference" />
+        <attr name="node_progress_bg" format="reference" />
+
+    </declare-styleable>
+</resources>
