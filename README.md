@@ -10,5 +10,5 @@
    3. 画文字
 
 上效果图：
-![0](img/0.png =100x100)
+<img src="img/0.png" width="100" height="100" />
 
