@@ -9,6 +9,6 @@
    2. 画节点
    3. 画文字
 
-上效果图：
-<img src="img/0.png" width="100" height="100" />
+上效果图：\n
+<img src="img/0.png" width="50%" height="50%" />
 
